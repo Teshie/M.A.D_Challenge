@@ -13,7 +13,7 @@ const NewsAndBlogs = ({ data }) => {
         <div className="grid grid-cols-3 gap-4 p-4">
           {data.articles.map((items) => {
             return (
-              <div className="flex flex-col">
+              <div key={items?.urlToImage} className="flex flex-col">
                 <div>
                   <img src={items?.urlToImage} />
                 </div>

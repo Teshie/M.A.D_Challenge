@@ -20,25 +20,25 @@ const Timeline = () => {
           </span>
         </div>
       </div>
-      <div class="container  mx-auto w-full h-full">
-        <div class="relative wrap overflow-hidden p-10 h-full">
+      <div className="container  mx-auto w-full h-full">
+        <div className="relative wrap overflow-hidden p-10 h-full">
           <div
-            class="border-2-2 absolute border-opacity-20 border-gray-400 h-full border"
+            className="border-2-2 absolute border-opacity-20 border-gray-400 h-full border"
             style={{ left: "50%" }}
           ></div>
           {/* <!-- right timeline --> */}
-          <div class="mb-8 flex justify-between items-center w-full right-timeline">
-            <div class="order-1 w-5/12"></div>
-            <div class="z-20 flex items-center order-1 bg-red-900 shadow-xl w-4 h-4 rounded-full">
+          <div className="mb-8 flex justify-between items-center w-full right-timeline">
+            <div className="order-1 w-5/12"></div>
+            <div className="z-20 flex items-center order-1 bg-red-900 shadow-xl w-4 h-4 rounded-full">
               <span className="-mx-14 bg-yellow-100 px-2 rounded-lg text-gray-400">
                 2001
               </span>{" "}
             </div>
-            <div class="order-1   rounded-lg w-5/12 px-6 py-4">
+            <div className="order-1   rounded-lg w-5/12 px-6 py-4">
               <div>
                 <Image src={t1} className="" />
               </div>
-              <h3 class="mb-3  text-gray-800 text-xl">
+              <h3 className="mb-3  text-gray-800 text-xl">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 at purus pharetra magna
               </h3>{" "}
@@ -46,18 +46,18 @@ const Timeline = () => {
           </div>
 
           {/* <!-- left timeline --> */}
-          <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-            <div class="order-1 w-5/12"></div>
-            <div class="z-20 flex items-center order-1 bg-red-900 shadow-xl w-4 h-4 rounded-full">
+          <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+            <div className="order-1 w-5/12"></div>
+            <div className="z-20 flex items-center order-1 bg-red-900 shadow-xl w-4 h-4 rounded-full">
               <span className="mx-14 bg-yellow-100 px-2 rounded-lg text-gray-400">
                 2005
               </span>{" "}
             </div>
-            <div class="order-1   rounded-lg w-5/12 px-6 py-4">
+            <div className="order-1   rounded-lg w-5/12 px-6 py-4">
               <div>
                 <Image src={t2} className="" />
               </div>
-              <h3 class="mb-3  text-gray-800 text-xl">
+              <h3 className="mb-3  text-gray-800 text-xl">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 at purus pharetra magna
               </h3>{" "}
@@ -65,18 +65,18 @@ const Timeline = () => {
           </div>
 
           {/* <!-- right timeline --> */}
-          <div class="mb-8 flex justify-between items-center w-full right-timeline">
-            <div class="order-1 w-5/12"></div>
-            <div class="z-20 flex items-center order-1 bg-red-900 shadow-xl w-4 h-4 rounded-full">
+          <div className="mb-8 flex justify-between items-center w-full right-timeline">
+            <div className="order-1 w-5/12"></div>
+            <div className="z-20 flex items-center order-1 bg-red-900 shadow-xl w-4 h-4 rounded-full">
               <span className="-mx-14 bg-yellow-100 px-2 rounded-lg text-gray-400">
                 2012
               </span>{" "}
             </div>
-            <div class="order-1   rounded-lg w-5/12 px-6 py-4">
+            <div className="order-1   rounded-lg w-5/12 px-6 py-4">
               <div>
                 <Image src={t3} className="" />
               </div>
-              <h3 class="mb-3  text-gray-800 text-xl">
+              <h3 className="mb-3  text-gray-800 text-xl">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 at purus pharetra magna
               </h3>{" "}
@@ -84,18 +84,18 @@ const Timeline = () => {
           </div>
 
           {/* <!-- left timeline --> */}
-          <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-            <div class="order-1 w-5/12"></div>
-            <div class="z-20 flex items-center order-1 bg-red-900 shadow-xl w-4 h-4 rounded-full">
+          <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+            <div className="order-1 w-5/12"></div>
+            <div className="z-20 flex items-center order-1 bg-red-900 shadow-xl w-4 h-4 rounded-full">
               <span className="mx-14 bg-yellow-100 px-2 rounded-lg text-gray-400">
                 2014
               </span>{" "}
             </div>
-            <div class="order-1   rounded-lg w-5/12  py-4">
+            <div className="order-1   rounded-lg w-5/12  py-4">
               <div>
                 <Image src={t4} className="" />
               </div>
-              <h3 class="mb-3  text-gray-800 text-xl">
+              <h3 className="mb-3  text-gray-800 text-xl">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 at purus pharetra magna
               </h3>

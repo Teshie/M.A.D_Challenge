@@ -13,6 +13,7 @@ const AboutCard = () => {
               className="object-cover object-center"
               height={350}
               width={280}
+              alt="about"
             />
           </div>
           <div className="flex flex-col space-y-4">

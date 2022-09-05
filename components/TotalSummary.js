@@ -7,7 +7,7 @@ const TotalSummary = ({ data }) => {
     <div className="flex justify-center space-x-24 mt-10 items-center">
       {data.data.map((items) => {
         return (
-          <div>
+          <div key={items?.count}>
             <div className="flex space-x-2">
               <div className="flex space-x-4">
                 <div>
