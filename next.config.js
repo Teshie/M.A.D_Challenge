@@ -1,7 +1,32 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-}
-
-module.exports = nextConfig
+module.exports = {
+  images: {
+    domains: [
+      "nypost.com",
+      "a57.foxnews.com",
+      "statics.ambcrypto.com",
+      "i.ytimg.com",
+      "cdn.abcotvs.com",
+      "images.foxweather.com",
+      "cointelegraph.com",
+      "s.abcnews.com",
+      "dailyhodl.com",
+      "assets.bwbx.io",
+      "img.theepochtimes.com",
+      "zycrypto.com",
+      "cdn.arstechnica.net",
+      "cdn.vox-cdn.com",
+      "images.cointelegraph.com",
+      "cdn.motor1.com",
+      "image.cnbcfm.com",
+      "d32r1sh890xpii.cloudfront.net",
+      "www.aljazeera.com",
+      "wtop.com",
+      "www.thestreet.com",
+      "www.figma.com",
+      "www.reuters.com",
+      "images.wsj.net",
+      "cdn.mos.cms.futurecdn.net",
+      "images.mktw.net",
+    ],
+  },
+};
