@@ -7,61 +7,64 @@ import qoute from "../assets/qoute.png";
 const Testimonials = () => {
   return (
     <div className="">
-      <header class="w-full h-96 bg-[url('https://i.pinimg.com/originals/4e/80/76/4e8076838b1e96e81f9312bee41b188f.jpg')] bg-cover bg-center flex justify-center items-center">
-        <div class="flex flex-col justify-center items-center">
-          <h1 class=" text-center text-5xl text-white font-bold drop-shadow-lg">
+      <header className="w-full h-96 bg-[url('https://i.pinimg.com/originals/4e/80/76/4e8076838b1e96e81f9312bee41b188f.jpg')] bg-cover bg-center flex justify-center items-center">
+        <div className="flex flex-col justify-center items-center">
+          <h1 className=" text-center text-5xl text-white font-bold drop-shadow-lg">
             WELCOME
-            <span class="text-amber-500 mx-4">Matiwos Kalab</span>
+            <span className="text-amber-500 mx-4">Matiwos Kalab</span>
           </h1>
-          <p class="mt-5 text-center text-2xl text-white opacity-100">
+          <p className="mt-5 text-center text-2xl text-white opacity-100">
             Congratulation, you have successfully passed the first examination.
           </p>
-          <p class="mt-5 text-center text-2xl text-white opacity-100">
+          <p className="mt-5 text-center text-2xl text-white opacity-100">
             Your Score is 100/100%
           </p>
-          <p class="mt-10 text-center text-2xl text-white opacity-100">
+          <p className="mt-10 text-center text-2xl text-white opacity-100">
             To Take the next examination click the button below
           </p>
 
           <Link href="/Login">
-            <button class="bg-blue-500 mt-10  hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            <button className="bg-blue-500 mt-10  hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
               Login
             </button>
           </Link>
         </div>
       </header>
-      <div class="container p-20  bg-red-900">
-        <h1 class="text-4xl text-white">More About Us</h1>
-        <footer class="p-4 bg-red-900 sm:p-6 ">
-          <div class="md:flex md:justify-between">
-            <div class="mb-6 md:mb-0"></div>
-            <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+      <div className="container p-20  bg-red-900">
+        <h1 className="text-4xl text-white">More About Us</h1>
+        <footer className="p-4 bg-red-900 sm:p-6 ">
+          <div className="md:flex md:justify-between">
+            <div className="mb-6 md:mb-0"></div>
+            <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
-                <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white">
+                <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">
                   Resources
                 </h2>
-                <ul class="text-white dark:text-gray-400">
-                  <li class="mb-4">
-                    <a href="https://flowbite.com/" class="hover:underline">
+                <ul className="text-white dark:text-gray-400">
+                  <li className="mb-4">
+                    <a href="https://flowbite.com/" className="hover:underline">
                       Flowbite
                     </a>
                   </li>
                   <li>
-                    <a href="https://tailwindcss.com/" class="hover:underline">
+                    <a
+                      href="https://tailwindcss.com/"
+                      className="hover:underline"
+                    >
                       Tailwind CSS
                     </a>
                   </li>
                 </ul>
               </div>
               <div>
-                <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white">
+                <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">
                   Follow us
                 </h2>
-                <ul class="text-white dark:text-gray-400">
-                  <li class="mb-4">
+                <ul className="text-white dark:text-gray-400">
+                  <li className="mb-4">
                     <a
                       href="https://github.com/themesberg/flowbite"
-                      class="hover:underline "
+                      className="hover:underline "
                     >
                       Github
                     </a>
@@ -69,7 +72,7 @@ const Testimonials = () => {
                   <li>
                     <a
                       href="https://discord.gg/4eeurUVvTy"
-                      class="hover:underline"
+                      className="hover:underline"
                     >
                       Discord
                     </a>
@@ -77,17 +80,17 @@ const Testimonials = () => {
                 </ul>
               </div>
               <div>
-                <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white">
+                <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">
                   Legal
                 </h2>
-                <ul class="text-white dark:text-gray-400">
-                  <li class="mb-4">
-                    <a href="#" class="hover:underline">
+                <ul className="text-white dark:text-gray-400">
+                  <li className="mb-4">
+                    <a href="#" className="hover:underline">
                       Privacy Policy
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="hover:underline">
+                    <a href="#" className="hover:underline">
                       Terms &amp; Conditions
                     </a>
                   </li>
@@ -95,22 +98,22 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-          <div class="sm:flex sm:items-center sm:justify-between">
-            <span class="text-sm text-white sm:text-center dark:text-gray-400">
+          <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+          <div className="sm:flex sm:items-center sm:justify-between">
+            <span className="text-sm text-white sm:text-center dark:text-gray-400">
               © 2022{" "}
-              <a href="https://flowbite.com/" class="hover:underline">
+              <a href="https://flowbite.com/" className="hover:underline">
                 Flowbite™
               </a>
               . All Rights Reserved.
             </span>
-            <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+            <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
               <a
                 href="#"
-                class="text-white hover:text-white dark:hover:text-white"
+                className="text-white hover:text-white dark:hover:text-white"
               >
                 <svg
-                  class="w-5 h-5"
+                  className="w-5 h-5"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
@@ -121,14 +124,14 @@ const Testimonials = () => {
                     clip-rule="evenodd"
                   />
                 </svg>
-                <span class="sr-only">Facebook page</span>
+                <span className="sr-only">Facebook page</span>
               </a>
               <a
                 href="#"
-                class="text-white hover:text-white dark:hover:text-white"
+                className="text-white hover:text-white dark:hover:text-white"
               >
                 <svg
-                  class="w-5 h-5"
+                  className="w-5 h-5"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
@@ -139,28 +142,28 @@ const Testimonials = () => {
                     clip-rule="evenodd"
                   />
                 </svg>
-                <span class="sr-only">Instagram page</span>
+                <span className="sr-only">Instagram page</span>
               </a>
               <a
                 href="#"
-                class="text-white hover:text-white dark:hover:text-white"
+                className="text-white hover:text-white dark:hover:text-white"
               >
                 <svg
-                  class="w-5 h-5"
+                  className="w-5 h-5"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
                 >
                   <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
                 </svg>
-                <span class="sr-only">Twitter page</span>
+                <span className="sr-only">Twitter page</span>
               </a>
               <a
                 href="#"
-                class="text-white hover:text-white dark:hover:text-white"
+                className="text-white hover:text-white dark:hover:text-white"
               >
                 <svg
-                  class="w-5 h-5"
+                  className="w-5 h-5"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
@@ -171,14 +174,14 @@ const Testimonials = () => {
                     clip-rule="evenodd"
                   />
                 </svg>
-                <span class="sr-only">GitHub account</span>
+                <span className="sr-only">GitHub account</span>
               </a>
               <a
                 href="#"
-                class="text-white hover:text-white dark:hover:text-white"
+                className="text-white hover:text-white dark:hover:text-white"
               >
                 <svg
-                  class="w-5 h-5"
+                  className="w-5 h-5"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
@@ -189,7 +192,7 @@ const Testimonials = () => {
                     clip-rule="evenodd"
                   />
                 </svg>
-                <span class="sr-only">Dribbbel account</span>
+                <span className="sr-only">Dribbbel account</span>
               </a>
             </div>
           </div>
