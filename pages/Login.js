@@ -9,7 +9,7 @@ const Login = () => {
     if (email.indexOf("EP") > -1) {
       router.push("/HomeQA");
     } else {
-      alert("hello not found inside your_string");
+      alert("InCorrect Passport Number, Please try again");
     }
   };
 
