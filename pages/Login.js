@@ -23,9 +23,7 @@ const Login = () => {
           <form action="">
             <div className="mt-4">
               <div>
-                <label className="block" for="email">
-                  Upload Your Passport Photo
-                </label>
+                <label className="block">Upload Your Passport Photo</label>
                 <input
                   type="file"
                   placeholder="Email"
