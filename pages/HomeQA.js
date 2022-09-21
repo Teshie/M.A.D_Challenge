@@ -71,10 +71,7 @@ const HomeQA = () => {
         </div>
         <div className="grid place-items-center items-center mt-4 p-10">
           <div className="mb-3 xl:w-96 items-center">
-            <label
-              for="examplePassword0"
-              className="form-label inline-block mb-2"
-            >
+            <label className="form-label inline-block mb-2">
               1. She was a devoted wife and looked _______ her husband.
             </label>
             <div className=" items-center ">
@@ -129,10 +126,7 @@ const HomeQA = () => {
             </div>
           </div>
           <div className="mb-3 xl:w-96 items-center">
-            <label
-              for="examplePassword0"
-              className="form-label inline-block mb-2"
-            >
+            <label className="form-label inline-block mb-2">
               1. She was a devoted wife and looked _______ her husband.
             </label>
             <div className=" items-center ">
@@ -187,10 +181,7 @@ const HomeQA = () => {
             </div>
           </div>
           <div className="mb-3 xl:w-96 items-center">
-            <label
-              for="examplePassword0"
-              className="form-label inline-block mb-2"
-            >
+            <label className="form-label inline-block mb-2">
               1. She was a devoted wife and looked _______ her husband.
             </label>
             <div className=" items-center ">
@@ -245,10 +236,7 @@ const HomeQA = () => {
             </div>
           </div>
           <div className="mb-3 xl:w-96 items-center">
-            <label
-              for="examplePassword0"
-              className="form-label inline-block mb-2"
-            >
+            <label className="form-label inline-block mb-2">
               1. She was a devoted wife and looked _______ her husband.
             </label>
             <div className=" items-center ">
@@ -303,10 +291,7 @@ const HomeQA = () => {
             </div>
           </div>
           <div className="mb-3 xl:w-96 items-center">
-            <label
-              for="examplePassword0"
-              className="form-label inline-block mb-2"
-            >
+            <label className="form-label inline-block mb-2">
               1. She was a devoted wife and looked _______ her husband.
             </label>
             <div className=" items-center ">
@@ -361,10 +346,7 @@ const HomeQA = () => {
             </div>
           </div>
           <div className="mb-3 xl:w-96 items-center">
-            <label
-              for="examplePassword0"
-              className="form-label inline-block mb-2"
-            >
+            <label className="form-label inline-block mb-2">
               1. She was a devoted wife and looked _______ her husband.
             </label>
             <div className=" items-center ">
@@ -419,10 +401,7 @@ const HomeQA = () => {
             </div>
           </div>
           <div className="mb-3 xl:w-96  items-center">
-            <label
-              for="examplePassword0"
-              className="form-label inline-block mb-2"
-            >
+            <label className="form-label inline-block mb-2">
               1. She was a devoted wife and looked _______ her husband.
             </label>
             <div className=" items-center ">
@@ -477,10 +456,7 @@ const HomeQA = () => {
             </div>
           </div>
           <div className="mb-3 xl:w-96 items-center">
-            <label
-              for="examplePassword0"
-              className="form-label inline-block mb-2"
-            >
+            <label className="form-label inline-block mb-2">
               1. She was a devoted wife and looked _______ her husband.
             </label>
             <div className=" items-center ">
@@ -535,10 +511,7 @@ const HomeQA = () => {
             </div>
           </div>
           <div className="mb-3 xl:w-96 items-center">
-            <label
-              for="examplePassword0"
-              className="form-label inline-block mb-2"
-            >
+            <label className="form-label inline-block mb-2">
               1. She was a devoted wife and looked _______ her husband.
             </label>
             <div className=" items-center ">
