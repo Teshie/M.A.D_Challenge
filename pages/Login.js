@@ -2,7 +2,7 @@ import React from "react";
 import { useRouter } from "next/router";
 const Login = () => {
   const router = useRouter();
-  const [email, setEmail] = React.useState("EP123");
+  const [email, setEmail] = React.useState("");
   const [password, setPassword] = React.useState("");
 
   const checkValidation = () => {
@@ -34,6 +34,8 @@ const Login = () => {
                 <label className="block">Enter Your Passport Number</label>
                 <input
                   type="text"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                   placeholder="EP123...."
                   className="w-full px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600"
                 />
