@@ -11,14 +11,14 @@ import Testimonials from "./Testimonials";
 const HomePage = ({ data }) => {
   return (
     <div>
-      <Header />
-      <Projects />
-      <AboutCard />
-      <Publications />
-      <Testimonials />
+      {/* <Header />
+      <Projects /> */}
+      {/* <AboutCard /> */}
+      {/* <Publications />
       <NewsAndBlogs data={data} />
       <Partners />
-      <Footer />
+    <Footer /> */}
+      <Testimonials />
     </div>
   );
 };
