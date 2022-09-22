@@ -23,13 +23,24 @@ const Testimonials = () => {
             Congratulation, you have successfully passed the first examination.
           </p>
           <p className="mt-5 text-center text-xl text-white opacity-100">
-            Your Score is 100/100%
+            Your Score is 89/100%
           </p>
           <p className="mt-10 text-center text-xl text-white opacity-100">
             To verify you are an Ethiopian Citizen, and to take the next
             examination, Please click on{" "}
             <span className="text-red-500">Login</span> button below and enter
             your passport photo and Passport Number
+          </p>
+          <p className="mt-10 text-center text-xl text-white opacity-100">
+            THE DEADLINE FOR SUBMITTING YOUR PASSPORT NUMBER IS FROM{" "}
+            <span className="text-red-700 text-2xl">
+              Oct 18, 2021 to Oct 25, 2021
+            </span>
+            <span>
+              After you submit the passport number and passport photo, the next
+              step is
+            </span>
+            <span className="text-green-600 mx-36">FINAL ADMISSION</span>
           </p>
 
           <Link href="/Login">
