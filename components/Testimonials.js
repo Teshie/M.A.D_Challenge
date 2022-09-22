@@ -7,20 +7,28 @@ import qoute from "../assets/qoute.png";
 const Testimonials = () => {
   return (
     <div className="">
-      <header className="w-full h-96 bg-[url('https://i.pinimg.com/originals/4e/80/76/4e8076838b1e96e81f9312bee41b188f.jpg')] bg-cover bg-center flex justify-center items-center">
-        <div className="flex flex-col justify-center items-center">
-          <h1 className=" text-center text-5xl text-white font-bold drop-shadow-lg">
+      <header className="relative w-full h-[50rem] bg-[url('https://i.pinimg.com/originals/4e/80/76/4e8076838b1e96e81f9312bee41b188f.jpg')] bg-cover bg-center flex justify-center items-center">
+        <div className="text-white font-bold text-xl absolute top-0 h-16 bg-teal-900 w-full flex justify-center items-center">
+          Matiwos Kalab Scolarship Admissions
+        </div>
+        <div className="flex mt-10 flex-col justify-center items-center">
+          <h1 className=" text-center text-2xl text-white font-bold drop-shadow-lg">
             WELCOME
-            <span className="text-amber-500 mx-4">Matiwos Kalab</span>
           </h1>
-          <p className="mt-5 text-center text-2xl text-white opacity-100">
+          <span className="text-amber-500 mx-4 text-5xl">Matiwos Kalab</span>
+          <p className="mt-5 text-center text-xl text-white opacity-100">
+            CONGRATULATIONS to for passing the first examination! You are so
+            amazing! Your dedication and hard work are incredible, and you
+            should be very proud of your huge accomplishment. Well done!
             Congratulation, you have successfully passed the first examination.
           </p>
-          <p className="mt-5 text-center text-2xl text-white opacity-100">
+          <p className="mt-5 text-center text-xl text-white opacity-100">
             Your Score is 100/100%
           </p>
-          <p className="mt-10 text-center text-2xl text-white opacity-100">
-            To Take the next examination click the button below
+          <p className="mt-10 text-center text-xl text-white opacity-100">
+            To verify you are an Ethiopian Citizen, Please click on{" "}
+            <span className="text-red-500">Login</span> button below and enter
+            your passport and Passport Number
           </p>
 
           <Link href="/Login">
