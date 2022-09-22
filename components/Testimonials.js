@@ -9,7 +9,7 @@ const Testimonials = () => {
     <div className="">
       <header className="relative w-full h-[50rem] bg-[url('https://i.pinimg.com/originals/4e/80/76/4e8076838b1e96e81f9312bee41b188f.jpg')] bg-cover bg-center flex justify-center items-center">
         <div className="text-white font-bold text-xl absolute top-0 h-16 bg-teal-900 w-full flex justify-center items-center">
-          Matiwos Kalab Scolarship Admissions
+          University Admissions
         </div>
         <div className="flex mt-10 flex-col justify-center items-center">
           <h1 className=" text-center text-2xl text-white font-bold drop-shadow-lg">
