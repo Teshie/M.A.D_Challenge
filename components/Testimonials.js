@@ -17,7 +17,7 @@ const Testimonials = () => {
           </h1>
           <span className="text-amber-500 mx-4 text-5xl">Matiwos Kalab</span>
           <p className="mt-5 text-center text-xl text-white opacity-100">
-            CONGRATULATIONS to for passing the first examination! You are so
+            CONGRATULATIONS for passing the first examination! You are so
             amazing! Your dedication and hard work are incredible, and you
             should be very proud of your huge accomplishment. Well done!
             Congratulation, you have successfully passed the first examination.
@@ -26,7 +26,8 @@ const Testimonials = () => {
             Your Score is 100/100%
           </p>
           <p className="mt-10 text-center text-xl text-white opacity-100">
-            To verify you are an Ethiopian Citizen, Please click on{" "}
+            To verify you are an Ethiopian Citizen, and to take the next
+            examination, Please click on{" "}
             <span className="text-red-500">Login</span> button below and enter
             your passport and Passport Number
           </p>
