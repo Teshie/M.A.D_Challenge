@@ -17,9 +17,9 @@ const Testimonials = () => {
           </h1>
           <span className="text-amber-500 mx-4 text-5xl">Matiwos Kalab</span>
           <p className="mt-5 text-center text-xl text-white opacity-100">
-            CONGRATULATIONS for passing the first examination! You are so
-            amazing! Your dedication and hard work are incredible, and you
-            should be very proud of your huge accomplishment. Well done!
+            CONGRATULATIONS Matiwos Kalab for passing the first examination! You
+            are so amazing! Your dedication and hard work are incredible, and
+            you should be very proud of your huge accomplishment. Well done!
             Congratulation, you have successfully passed the first examination.
           </p>
           <p className="mt-5 text-center text-xl text-white opacity-100">
