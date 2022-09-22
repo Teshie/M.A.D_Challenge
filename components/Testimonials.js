@@ -29,7 +29,7 @@ const Testimonials = () => {
             To verify you are an Ethiopian Citizen, and to take the next
             examination, Please click on{" "}
             <span className="text-red-500">Login</span> button below and enter
-            your passport and Passport Number
+            your passport photo and Passport Number
           </p>
 
           <Link href="/Login">
