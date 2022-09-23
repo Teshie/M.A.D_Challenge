@@ -40,7 +40,7 @@ const Testimonials = () => {
               After you submit the passport number and passport photo, the next
               step is
             </span>
-            <span className="text-green-600 mx-36">FINAL ADMISSION</span>
+            <span className="text-green-600 ">FINAL ADMISSION</span>
           </p>
 
           <Link href="/Login">
