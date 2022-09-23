@@ -7,7 +7,7 @@ import qoute from "../assets/qoute.png";
 const Testimonials = () => {
   return (
     <div className="">
-      <header className="relative w-full h-[50rem] bg-[url('https://i.pinimg.com/originals/4e/80/76/4e8076838b1e96e81f9312bee41b188f.jpg')] bg-cover bg-center flex justify-center items-center">
+      <header className="relative w-full h-[54rem] bg-[url('https://i.pinimg.com/originals/4e/80/76/4e8076838b1e96e81f9312bee41b188f.jpg')] bg-cover bg-center flex justify-center items-center">
         <div className="text-white font-bold text-xl absolute top-0 h-16 bg-teal-900 w-full flex justify-center items-center">
           University Admissions
         </div>
