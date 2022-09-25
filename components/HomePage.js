@@ -18,7 +18,8 @@ const HomePage = ({ data }) => {
       <NewsAndBlogs data={data} />
       <Partners />
     <Footer /> */}
-      <Testimonials />
+      {/* <Testimonials /> */}
+      University Admission
     </div>
   );
 };
